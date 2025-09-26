@@ -80,8 +80,7 @@ if st.button("Show traversal"):
             preorder(c)
     def postorder(n):
         if not n: return
-            # placeholder
-            pass
+            
     def postorder_fixed(n):
         if not n: return
         for c in st.session_state.tree.get(n, []):
